@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="/css/bakkour.css">
+  <link rel="stylesheet" href="/css/master.css">
+  <!---------- Start google font ---------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!---------- End google font ---------->
+  <title>Profile</title>
+</head>
+
+<body>
+  <div class="page bg-wrapper flex min-h-full-vh">
+    <!---------- Start sidebar ---------->
+    <div
+      class="sidebar  bg-white w-16  w-64-md shadow-gray-light-7 px-2 py-4 px-4-md relative">
+      <h3 class="text-center line-dote-bottom mb-3 mb-2-md  font-sm font-xl-md fw-900">
+        Sami </h3>
+      <ul class="flex flex-col gy">
+        <li>
+          <a href="index.html"
+            class=" flex items-center font-sm rounded-xs p-2 transition bg-hover-gray-light-9">
+            <i class="fa-regular fa-chart-bar fa-fw"></i>
+            <span class="hidden inline-block-md ml-2">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html"
+            class=" flex items-center font-sm rounded-xs p-2 transition bg-hover-gray-light-9">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span class="hidden inline-block-md ml-2">settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html"
+            class="active flex items-center font-sm rounded-xs p-2 transition bg-hover-gray-light-9">
+            <i class="fa-regular fa-user"></i>
+            <span class="hidden inline-block-md ml-2">profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="projects.html"
+            class="flex items-center font-sm rounded-xs p-2 transition bg-hover-gray-light-9">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span class="hidden inline-block-md ml-2">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="courses.html"
+            class="flex items-center font-sm rounded-xs p-2 transition bg-hover-gray-light-9">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span class="hidden inline-block-md ml-2">Courses</span>
+          </a>
+        </li>
+        <li>
+          <a href="friends.html"
+            class="flex items-center font-sm rounded-xs p-2 transition bg-hover-gray-light-9">
+            <i class="fa-regular fa-circle-user"></i>
+            <span class="hidden inline-block-md ml-2">Friends</span>
+          </a>
+        </li>
+        <li>
+          <a href="files.html"
+            class="flex items-center font-sm rounded-xs p-2 transition bg-hover-gray-light-9">
+            <i class="fa-regular fa-file"></i>
+            <span class="hidden inline-block-md ml-2">Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html"
+            class="flex items-center font-sm rounded-xs p-2 transition bg-hover-gray-light-9">
+            <i class="fa-regular fa-credit-card"></i>
+            <span class="hidden inline-block-md ml-2">Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!---------- End sidebar ---------->
+    <!---------- Start content ---------->
+    <div class="content w-full overflow-hidden">
+      <!---------- Start Head ---------->
+      <div class="head bg-white p-3 flex items-center flex justify-space-between">
+        <div class="search-icon text-gray relative">
+          <input class="p-2 " type="search" name="" id="" placeholder="Type A Keyword">
+        </div>
+        <div class=" flex items-center">
+          <span class=" notification pointer">
+            <i class=" fa-regular fa-bell fa-lg "></i>
+          </span>
+          <img class="w-8 h-8 ml-3 pointer" src="./imgs/avatar.png" alt="">
+        </div>
+      </div>
+      <!---------- End Head ---------->
+      <h1 class="relative m-4 mb-8">Profile</h1>
+      <div class="profile-page m-4">
+        <!---------- Start Overview ---------->
+        <div class="overview bg-white rounded-xs flex flex-col flex-row-md items-center">
+          <div class="avatar-box w-72 text-center p-4">
+            <img class="rounded-full w-28 h-28 mb-2" src="imgs/avatar.png" alt="" />
+            <h3 class="m-0">Osama Elzero</h3>
+            <p class="text-gray my-2">Level 20</p>
+            <div
+              class="level h-6px overflow-hidden m-auto w-f9 rounded-xs bg-eee relative">
+              <span class="absolute left-0 top-0 h-full bg-primary rounded-xs"
+                style="width: 70%"></span>
+            </div>
+            <div class="rating mt-2 mb-2">
+              <i class="fa-solid fa-star text-orange font-sm"></i>
+              <i class="fa-solid fa-star text-orange font-sm"></i>
+              <i class="fa-solid fa-star text-orange font-sm"></i>
+              <i class="fa-solid fa-star text-orange font-sm"></i>
+              <i class="fa-solid fa-star text-orange font-sm"></i>
+            </div>
+            <p class="text-gray m-0 font-sm">550 Rating</p>
+          </div>
+          <div class="info-box w-full  text-left-md text-center">
+            <!---------- Start Information Row ---------->
+            <div
+              class="box p-4 flex flex-wrap items-center justify-center justify-flex-start border border-bottom-1 border-eee transition bg-hover-wrapper-light-1">
+              <h4 class="text-gray fw-normal font-base m-0 w-full">General Information
+              </h4>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Full Name</span>
+                <span class="fw-600">Osama Mohamed</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Gender:</span>
+                <span class="fw-600">Male</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Country:</span>
+                <span class="fw-600">Egypt</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <label id="toggleCheckboxContain">
+                  <input class="toggle-checkbox" type="checkbox" checked />
+                  <div class="toggle-switch m-auto"></div>
+                </label>
+              </div>
+            </div>
+            <!---------- End Information Row ---------->
+            <!---------- Start Information Row ---------->
+            <div
+              class="box p-4 flex flex-wrap items-center justify-center justify-flex-start border border-bottom-1 border-eee transition bg-hover-wrapper-light-1">
+              <h4 class="text-gray fw-normal w-full font-base m-0">Personal Information
+              </h4>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Email:</span>
+                <span class="fw-600">o@nn.sa</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Phone:</span>
+                <span class="fw-600">019123456789</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Date Of Birth:</span>
+                <span class="fw-600">25/10/1982</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <label id="toggleCheckboxContain">
+                  <input class="toggle-checkbox" type="checkbox" />
+                  <div class="toggle-switch m-auto"></div>
+                </label>
+              </div>
+            </div>
+            <!---------- End Information Row ---------->
+            <!---------- Start Information Row ---------->
+            <div
+              class="box p-4 flex flex-wrap items-center justify-center justify-flex-start border border-bottom-1 border-eee transition bg-hover-wrapper-light-1">
+              <h4 class="text-gray fw-normal w-full font-base m-0">Job Information</h4>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Title:</span>
+                <span class="fw-600">Full Stack Developer</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Programming Language:</span>
+                <span class="fw-600">Python</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Years Of Experience:</span>
+                <span class="fw-600">15+</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <label id="toggleCheckboxContain">
+                  <input class="toggle-checkbox" type="checkbox" checked />
+                  <div class="toggle-switch m-auto"></div>
+                </label>
+              </div>
+            </div>
+            <!---------- End Information Row ---------->
+            <!---------- Start Information Row ---------->
+            <div
+              class="box p-4 flex flex-wrap items-center justify-center justify-flex-start border border-bottom-1 border-eee transition bg-hover-wrapper-light-1">
+              <h4 class="text-gray fw-normal w-full font-base m-0">Billing Information
+              </h4>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Payment Method:</span>
+                <span class="fw-600">Paypal</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Email:</span>
+                <span class="fw-600">email@website.com</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <span class="text-gray">Subscription:</span>
+                <span class="fw-600">Monthly</span>
+              </div>
+              <div class="font-sm min-w-64 p-0 pt-2 ">
+                <label id="toggleCheckboxContain">
+                  <input class="toggle-checkbox" type="checkbox" />
+                  <div class="toggle-switch m-auto"></div>
+                </label>
+              </div>
+            </div>
+            <!---------- End Information Row ---------->
+          </div>
+        </div>
+        <!---------- End Overview ---------->
+        <!---------- Start Other Data ---------->
+        <div class="other-data flex flex-col flex-row-md gap-4">
+          <div class="skills-card grow-1 p-4 bg-white rounded-xs mt-4">
+            <h2 class="mt-0 mb-2">My Skills</h2>
+            <p class="mt-0 mb-4 text-gray font-base">Complete Skills List</p>
+            <ul class="m-0 text-center text-left-md">
+              <li class="py-3 border border-bottom-1 border-eee">
+                <span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs mr-1">HTML</span>
+                <span class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs mr-1">Pugjs
+                </span>
+                <span class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs ">HAML
+                </span>
+              </li>
+              <li class="py-3 border border-bottom-1 border-eee">
+                <span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs mr-1">CSS</span><span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs mr-1">SASS</span><span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs ">Stylus</span>
+              </li>
+              <li class="py-3 border border-bottom-1 border-eee">
+                <span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs mr-1">JavaScript</span><span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs ">TypeScript</span>
+              </li>
+              <li class="py-3 border border-bottom-1 border-eee">
+                <span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs mr-1">Vuejs</span><span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs ">Reactjs</span>
+              </li>
+              <li class="py-3 border border-bottom-1 border-eee">
+                <span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs mr-1">Jest</span><span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs ">Jasmine</span>
+              </li>
+              <li class="py-3 border border-bottom-1 border-eee">
+                <span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs mr-1">PHP</span><span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs ">Laravel</span>
+              </li>
+              <li class="py-3"><span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs mr-1">Python</span><span
+                  class="inline-flex py-1 px-2 bg-eee font-sm rounded-xs ">Django</span>
+              </li>
+            </ul>
+          </div>
+          <div class="activities p-4 bg-white rounded-xs mt-4 grow-2">
+            <h2 class="mt-0 mb-2">Latest Activities</h2>
+            <p class="mt-0 mb-4 text-gray font-base">Latest Activities Done By The User
+            </p>
+            <div
+              class="activity flex flex-col flex-row-md items-center text-center text-left-md border border-bottom-1 border-eee pb-4 mb-4">
+              <img class="w-16 h-16 mr-0 mb-3 mr-2-md " src="imgs/activity-01.png"
+                alt="" />
+              <div class="info">
+                <span class="block mb-2">Store</span>
+                <span class="text-gray">Bought The Mastering Python Course</span>
+              </div>
+              <div class="date mt-3 ml-auto-md text-right-md">
+                <span class="block mb-2">18:10</span>
+                <span class="text-gray">Yesterday</span>
+              </div>
+            </div>
+            <div
+              class="activity flex flex-col flex-row-md items-center text-center text-left-md border border-bottom-1 border-eee pb-4 mb-4">
+              <img class="w-16 h-16 mr-0 mb-3 mr-2-md " src="imgs/activity-02.png"
+                alt="" />
+              <div class="info">
+                <span class="block mb-2">Academy</span>
+                <span class="text-gray">Got The PHP Certificate</span>
+              </div>
+              <div class="date mt-3 ml-auto-md text-right-md">
+                <span class="block mb-2">16:05</span>
+                <span class="text-gray">Yesterday</span>
+              </div>
+            </div>
+            <div
+              class="activity flex flex-col flex-row-md items-center text-center text-left-md border border-bottom-1 border-eee pb-4 mb-4">
+              <img class="w-16 h-16 mr-0 mb-3 mr-2-md " src="imgs/activity-03.png"
+                alt="" />
+              <div class="info">
+                <span class="block mb-2">Badges</span>
+                <span class="text-gray">Unlocked The 10 Skills Badge</span>
+              </div>
+              <div class="date mt-3 ml-auto-md text-right-md">
+                <span class="block mb-2">18:05</span>
+                <span class="text-gray">Yesterday</span>
+              </div>
+            </div>
+            <div
+              class="activity flex flex-col flex-row-md items-center text-center text-left-md pb-4 mb-4">
+              <img class="w-16 h-16 mr-0 mb-3 mr-2-md " src="imgs/activity-01.png"
+                alt="" />
+              <div class="info">
+                <span class="block mb-2">Store</span>
+                <span class="text-gray">Bought The Typescript Course</span>
+              </div>
+              <div class="date mt-3 ml-auto-md text-right-md">
+                <span class="block mb-2">12:05</span>
+                <span class="text-gray">Yesterday</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------- End Other Data ---------->
+      </div>
+    </div>
+    <!---------- End content ---------->
+  </div>
+</body>
+
+</html>
