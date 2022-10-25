@@ -331,45 +331,12 @@ body {
   outline: 3px solid currentColor;
 }
 
-.plans-page .plan .price {
-  position: relative;
-  font-size: 40px;
-  width: fit-content;
-  margin: auto;
-}
-
 .plans-page .plan .price span {
-  position: absolute;
   left: -20px;
-  top: 0;
-  font-size: 25px;
-}
-
-.plans-page .plan ul li {
-  padding: 15px 0;
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-  border-bottom: 1px solid #eee;
-}
-
-.plans-page .plan ul li .yes {
-  color: var(--green-color);
 }
 
 .plans-page .plan ul li i:not(.yes, .help) {
   color: var(--red-color);
-}
-
-.plans-page .plan ul li i:first-child {
-  font-size: 18px;
-  margin-right: 5px;
-}
-
-.plans-page .plan ul li .help {
-  color: var(--grey-color);
-  margin-left: auto;
-  cursor: pointer;
 }
 
 /* ------------- End Plans Page ------------- */
